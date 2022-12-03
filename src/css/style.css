@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #eaeaea;
+  --bg-receita: #ffffff;
+  --titulos-subtitulos: #1b1b1b;
+  --footer-legenda: #8f8f8f;
+  --textos: #39393a;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: var(--bg-receita);
+  width: 70%;
+  margin: 2.5rem auto;
+  padding: 1.875rem;
+  border-radius: 0.625rem;
+}
+
+header {
+  margin-top: 2.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  color: var(--titulos-subtitulos);
+  margin-bottom: 1.875rem;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+figcaption {
+  text-align: right;
+  color: var(--footer-legenda);
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: var(--titulos-subtitulos);
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+li,
+p {
+  color: var(--textos);
+  line-height: 1.85rem;
+}
+
+footer > p {
+  margin: 2.5rem;
+  text-align: center;
+  color: var(--footer-legenda);
+}
